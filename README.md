@@ -1,7 +1,7 @@
 # 🛒 Backend Tienda Rich
 
 Sistema de gestión de inventario y ventas desarrollado para **Rich Supplements**.
-Este proyecto utiliza una arquitectura monolítica modular basada en **Spring Boot 3** y **Java 21**.
+Este proyecto utiliza una arquitectura monolítica modular basada en **Spring Boot 4.0.2** y **Java 21**.
 
 ## 🚀 Tecnologías
 
