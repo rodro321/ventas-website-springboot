@@ -1,3 +1,15 @@
 spring:
-  application:
-    name: gestion-tienda
+  datasource:
+    url: jdbc:postgresql://localhost:5432/tienda_rich_db
+    username: postgres       
+    password: rodro8090    
+    driver-class-name: org.postgresql.Driver
+  
+  jpa:
+    hibernate:
+      ddl-auto: update       # Crea las tablas automáticamente si no existen
+    show-sql: true           # Para ver en la consola las consultas SQL que hace Java
+    properties:
+      hibernate:
+        format_sql: true     # Pone el SQL bonito y legible
+        dialect: org.hibernate.dialect.PostgreSQLDialect
